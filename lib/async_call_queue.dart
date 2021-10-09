@@ -163,5 +163,6 @@ const kMinJsInt = -0x20000000000000; // -2^53
 
 extension AsyncCallQueueExtOnInt on int {
   /// Returns ```this == kMaxJsInt ? wrapTo : this + 1```
-  int safeIncrement({int wrapTo = kMinJsInt}) => (this == kMaxJsInt ? wrapTo : this + 1);
+  int safeIncrement({int wrapTo = kMinJsInt}) =>
+      (this == kMaxJsInt ? wrapTo : this + 1);
 }
