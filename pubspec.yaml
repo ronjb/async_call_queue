@@ -1,6 +1,6 @@
 name: async_call_queue
 description: AsyncCallQueue is a Dart class which provides a queuing mechanism to prevent concurrent access to asynchronous code.
-version: 1.0.0
+version: 1.0.1
 repository: https://github.com/ronjb/async_call_queue
 
 environment:
