@@ -1,0 +1,17 @@
+include: package:lints/recommended.yaml
+
+analyzer:
+  errors:
+    missing_return: error
+    missing_required_param: error
+
+  strong-mode:
+    implicit-casts: false
+    implicit-dynamic: false
+
+linter:
+  rules:
+    - prefer_const_constructors
+    - prefer_const_constructors_in_immutables
+    - prefer_const_declarations
+    - prefer_const_literals_to_create_immutables
